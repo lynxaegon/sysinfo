@@ -1,0 +1,9 @@
+<?=$header?>
+<body>
+<?=$server_details?>
+<?=$network_status?>
+<?=$memory_status?>
+<?=$disk_status?>
+<?=$process_status?>
+</body>
+<?=$footer?>

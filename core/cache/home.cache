@@ -1,0 +1,92 @@
+
+<html>
+<link rel="stylesheet" type="text/css" href="application/template/default/stylesheet/stylesheet.css" /><body>
+<div id="module_server_details" class="box">
+  <div class="top">Server Details</div>
+  <div class="middle">
+    <table>
+      <tr>
+        <td>Cpu: </td>
+        <td width="25px"></td>
+        <td> Intel(R) Xeon(R) CPU           X3450  @ 2.67GHz</td>
+      </tr>
+      <tr>
+        <td>Running: </td>
+        <td width="25px"></td>
+        <td>	Ubuntu 10.04.2 LTS (Lucid)</td>
+      </tr>
+      <tr>
+        <td>Wan Ip: </td>
+        <td width="25px"></td>
+        <td>74.117.158.137 (qnex.me)</td>
+      </tr>
+      <tr>
+        <td>Temperature: </td>
+        <td width="25px"></td>
+        <td>Unkown</td>
+      </tr>
+      <tr>
+        <td>Uptime: </td>
+        <td width="25px"></td>
+        <td>47 days, 19 hours, 22 minutes</td>
+      </tr>
+    </table>
+  </div>
+  <div class="bottom"></div>
+</div><div id="module_network_status" class="box">
+  <div class="top">Network Status</div>
+  <div class="middle">
+    <table>
+      <tr>
+        <td>Download:  b/s</td>
+        <td width="25px"></td>
+        <td>Upload:  b/s</td>
+      </tr>
+      <tr>
+        <td>Total: 0.00 b</td>
+        <td width="25px"></td>
+        <td>Total:  b</td>
+      </tr>
+    </table>
+  </div>
+  <div class="bottom"></div>
+</div><div id="module_server_details" class="box">
+  <div class="top">Memory &nbsp; [<font color="green"><b>|</b></font><font color="blue"><b>|</b></font><font color="red"><b>|</b></font><font color="white"><b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</b></font>]</div>
+<div class="middle">
+<table>
+  <tr>
+    <td>Used: 802 Mb</td>
+    <td width="25px"></td>
+    <td>Free: 1245 Mb</td>
+  </tr>
+  <tr>
+    <td>Total: 2048 Mb</td>
+    <td width="25px"></td>
+    <td>Cached: 0 Mb</td>
+  </tr>
+</table>
+</div>
+<div class="bottom"></div>
+</div><div id="module_server_details" class="box">
+  <div class="top">Disk &nbsp;
+[<font color="green"><b>||</b></font><font color="white"><b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</b></font>]</div>
+<div class="middle">
+<table>
+  <tr>
+    <td>Used: 6.54 Gb</td>
+    <td width="25px"></td>
+    <td>Free: 53.46 Gb</td>
+    <td width="25px"></td>
+    <td>Total: 60.00 Gb</td>
+  </tr>
+</table>
+</div>
+<div class="bottom"></div>
+</div><div id="module_server_details" class="box">
+  <div class="top">Processes</div>
+  <div class="middle">
+<table><tr><td>Apache2</td><td width="25px"></td><td><img src="application/template/default/images/online.png"/></td></tr><tr><td>Mysql</td><td width="25px"></td><td><img src="application/template/default/images/online.png"/></td></tr><tr><td>SMPP Transmitter</td><td width="25px"></td><td><img src="application/template/default/images/online.png"/></td></tr><tr><td>SMPP Receiver</td><td width="25px"></td><td><img src="application/template/default/images/online.png"/></td></tr><tr><td>Meister</td><td width="25px"></td><td><img src="application/template/default/images/online.png"/></td></tr><tr><td>BoomBoom</td><td width="25px"></td><td><img src="application/template/default/images/online.png"/></td></tr></table></div>
+<div class="bottom"></div>
+</div>
+</body>
+</html><br/><div class="version">Version: 0.1(alpha)</div>
