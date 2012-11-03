@@ -4,7 +4,7 @@ class ControllerModuleNetworkStatus extends Controller
 
 	public function index()
 	{
-		$this->script = exec('scripts/netspeed.sh eth0');
+		$this->script = exec('scripts/netspeed.sh venet0');
 		$this->getStats();
 		$this->id='network_status';
 		$this->render();

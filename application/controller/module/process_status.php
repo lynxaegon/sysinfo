@@ -17,11 +17,24 @@ class ControllerModuleProcessStatus extends Controller
 	{
 		if(!$process)
 			return false;
+		$ret = array();
+		$i=0;
 		foreach($process as $key => $value)
 		{
-			$process[$key]=exec("scripts/checkprocess.sh '".$value."'");
+			$ret[$i]['name'] = $key;
+			$ret[$i]['status'] = exec("scripts/checkprocess.sh '".$value."'");
+			if($ret[$i]['status'] == "online")
+			{
+				$ret[$i]['ramUsage'] = exec("scripts/ramusage.sh '".$value."'")/1024;
+				$ret[$i]['ramUsage'] = ceil($ret[$i]['ramUsage'])." MB";
+			}
+			else
+				$ret[$i]['ramUsage'] = "";
+			$i++;
+			//$process[$key]=exec("scripts/checkprocess.sh '".$value."'");
 		}
-		return $process;
+		return $ret;
+		//return $process;
 	}
 }
 ?>

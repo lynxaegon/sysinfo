@@ -7,9 +7,11 @@ echo '<table>';
 foreach($process as $key => $value)
 {
   echo '<tr>';
-  echo '<td>'. $key .'</td>';
+  echo '<td>'. $value['name'] .'</td>';
   echo '<td width="25px"></td>';
-  echo '<td><img src="application/template/default/images/'.$value.'.png"/></td>';
+  echo '<td><img src="application/template/default/images/'.$value['status'].'.png"/></td>';
+  echo '<td width="25px"></td>';
+  echo '<td>'. $value['ramUsage'] .'</td>';
   echo '</tr>';
 }
 echo '</table>';

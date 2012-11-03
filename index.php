@@ -30,8 +30,8 @@ if (isset($request->get['route']) && $request->get['route']!="") {
 }
 $registry->set('parent_location',$action->route);
 //Start Cache
-$PageCache= new PageCache(str_replace("/","_",$action->route));
-$PageCache->start(10);
+//$PageCache= new PageCache(str_replace("/","_",$action->route));
+//$PageCache->start(10);
 
 // Dispatch
 $controller->dispatch($action, new Action('error/not_found'));
@@ -42,9 +42,5 @@ $response->output();
 $error = $registry->get("error")?false:true;
 
 //Stop Cache
-echo "<br/>";
-echo '<div class="version">';
-echo 'Version: '.$config->version;
-echo '</div>';
-$PageCache->stop($error);
+//$PageCache->stop($error);
 ?>
